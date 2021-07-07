@@ -1,0 +1,15 @@
+CREACION DEL REPERTORIO
+echo "# prueba66" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nanareyes/prueba66.git
+git push -u origin main
+
+
+AGREGAR Y SUBIR CAMBIOS
+git status
+git add .
+git commit -m "Mensaje"
+git push
