@@ -13,3 +13,7 @@ git status
 git add .
 git commit -m "Mensaje"
 git push
+
+CONFIGURACIÓN DE CUENTA
+git config --global user.email "nombre@micorreo.com"
+git config --global user.name "Mi nombre"
