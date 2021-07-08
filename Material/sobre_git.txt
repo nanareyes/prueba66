@@ -14,6 +14,17 @@ git add .
 git commit -m "Mensaje"
 git push
 
+git push origin master (Donde esta ubicado el branch - Con rama)
+
 CONFIGURACIÓN DE CUENTA
 git config --global user.email "nombre@micorreo.com"
 git config --global user.name "Mi nombre"
+
+REVISAR DIFERENCIAS
+git diff src/App.java
+
+COMO CLONAR UN PROYECTO
+git clone https://github.com/ciaocamilo/proyectos_grupo66.git
+
+BAJAR CAMBIOS
+git pull
